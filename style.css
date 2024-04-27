@@ -1,0 +1,54 @@
+.album-container {
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+.card-title {
+    margin-top: 0.50em;
+    margin-bottom: 0.25em;
+    font-size: 1.3em;
+}
+
+#fav-albums {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.bg-navbar {
+    background-color: green;
+}
+
+body {
+    background-color: #6ab04c;
+    padding-top: 70px;
+}
+
+.navbar div a {
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.best-artist {
+    color: white;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+     height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+#best-album, #favorite-artist {
+    padding-block: 4rem;
+}
